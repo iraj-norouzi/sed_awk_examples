@@ -2,3 +2,4 @@
 df -h | awk '{ print $5 }' | sort -n | tail -n 1 | sed 's/%//'
 #be dast avardane hajme ye partition khas
 df -h | grep -i /dev/sda1 | awk '{print$5}' | sed 's/%//'
+ls -l sed -e "s/[abcdefgh]/u/g"
