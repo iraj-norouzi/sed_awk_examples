@@ -1,3 +1,4 @@
+https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/
 #bishtarin hajm estefade shode dar partiionha
 df -h | awk '{ print $5 }' | sort -n | tail -n 1 | sed 's/%//'
 #be dast avardane hajme ye partition khas
